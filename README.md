@@ -21,7 +21,7 @@ Please note that client-side tests are NOT current - they require CSS mocks befo
 ### Prerequisites
 * npm
 
-### Installation
+### Usage
 1. Clone repo
 ```sh
 git clone https://github.com/HRR49HouseStark/tours.git
@@ -31,6 +31,15 @@ git clone https://github.com/HRR49HouseStark/tours.git
 ```sh
 npm install
 ```
+
+3. Install mongoDB
+Consult the awsNotes.txt file for information on how to do this on Linux distributions.
+
+4. Run seeding script
+```
+npm run seed
+```
+This populates a small table of agents and a large table of user tour requests.
 
 ### Development
 For a server which automatically reloads on bundle compilation AND server changes:
