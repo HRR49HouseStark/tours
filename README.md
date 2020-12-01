@@ -15,6 +15,8 @@ Visit http://34.229.154.23:3001/ to take a look at the isolated module!
 * [Contact](#contact)
 
 ## Getting Started
+Please note that client-side tests are NOT current - they require CSS mocks before they will function again.
+
 
 ### Prerequisites
 * npm
