@@ -32,6 +32,14 @@ git clone https://github.com/HRR49HouseStark/tours.git
 npm install
 ```
 
+### Development
+For a server which automatically reloads on bundle compilation AND server changes:
+1. Run ```npm run devBuild``` in one terminal
+2. Separately run ```npm run devStart``` in another terminal
+
+### Production
+Run ```npm run production``` to automatically compile latest changes, then run the app.
+
 ## License
 
 Distributed under MIT License. See `LICENSE` for more information.
